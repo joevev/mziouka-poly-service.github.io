@@ -15,10 +15,11 @@
             font-family: 'Plus Jakarta Sans', sans-serif;
         }
         .contactImg{
-            width: 50vw;
-            height: auto;
+            width: auto;
+            height: 100vh;
             position: absolute;
-            top: 50px;
+            top: 15px;
+            border-radius: 15px;
         }.contactContainer{
             width:50vw;
             height: auto;
@@ -29,7 +30,7 @@
         }.contactCart{
             list-style-type: "→  ";
         }.contactElements li{
-            background-color: rgb(224, 225, 221);
+            background-color: white;
             height: 25px;
             margin: 5px 0px;
             border: 1px solid rgb(58, 58, 58);
@@ -45,12 +46,21 @@
         }.logocont{
             display:flex;
             justify-content:center;
-        }
+        }.divcont{
+                position: relative;
+                font-size: 14px;
+            }.contt{
+                color: aliceblue;
+            }
 
 
 
-        @media screen and (max-width: 622px) {
-            .contactImg{
+        @media screen and (max-width: 1050px) {
+            body {  background-image: url("12a.png");
+                    padding: 100px 0px;
+                    background-repeat: no-repeat;
+                    background-size: cover; 
+            }.contactImg{
                 display:none;
             }.mzlogo{
                 width:60vw;
@@ -77,14 +87,14 @@
     </style>
 </head>
 <body>
-    <img class="contactImg" src="contacttIMG.png" alt="contact us.">
+    <div style="display:flex;justify-content:center; width:50vw;"><img class="contactImg" src="1a.jpg" alt="contact us."></div>
     <div style="align-items: flex-start;" class="contactContainer">
-        <div class="logocont" style="">
-            <img class="mzlogo" src="logo.png" alt="companyLogo">
+        <div class="logocont">
+            <img class="mzlogo" src="LOGOROND.png" alt="companyLogo">
         </div>
         <div class="contt" style="display:flex;justify-content:center;">
             <p style="font-size: 26px;
-            text-align: center;">IMPRIMERIE MEZIOUKA POLYSERVICE</p>
+            text-align: center;">IMPRIMERIE MZIOUKA POLYSERVICE</p>
         </div>
         <div class="contt" style="display:flex;justify-content:center;">
             <h2 style="font-size: 15px;">Tous types d'impression et de publicité</h2>
@@ -97,12 +107,12 @@
             <li>broderie</li>
         </ul></div> -->
         <div class="divcont" style="display:flex;justify-content:center;"><ul class="contactElements">
+            <a href="https://wa.me/+212670214700" target="_blank"><li><span style="width: 20px ; display: inline-block; margin-left: 6px;"><i style="color:#25D366; font-size: 20px; position: relative;top: 2px;" class="fa-brands fa-whatsapp"></i></span><span style="display: inline-block;width: 200px;text-align: center;">+212 670-214 700</span></li></a>
+            <a href="mailto:mz.polyservice@gmail.com" target="_blank"><li><span style="width: 20px ; display: inline-block; margin-left: 6px;"><img style="width:17px; height: auto; position: relative;top: 2px;" src="gmail.png"></span><span style="display: inline-block;width: 195px;text-align: center;">mz.polyservice@gmail.com</span></li></a>
             <a href="https://www.facebook.com/mziouka.polyservices" target="_blank"><li><span style="width: 20px ; display: inline-block; margin-left: 6px; line-height: 25px;"><i style="color: #4080FF; font-size: 20px; position: relative;top: 2px;" class="fa-brands fa-facebook"></i></span><span style="display: inline-block;width: 200px;text-align: center;">Mziouka PolyService</span></li></a>
             <a href="https://www.instagram.com/mziouka_poly_service" target="_blank"><li><span style="width: 20px ; display: inline-block; margin-left: 6px;"><img style="width:17px; height: auto;  position: relative;top: 3px;" src="instagram-new-2016-seeklogo.com.png"></span><span style="display: inline-block;width: 200px;text-align: center;">Mziouka PolyService</span></li></a>
             <a href="https://www.tiktok.com/@imprimerie_ahl_taza" target="_blank"><li><span style="width: 20px ; display: inline-block; margin-left: 6px;"><img style="width:14px; height: auto; position: relative;top: 2px;" src="tik-tok-seeklogo.png"></span><span style="display: inline-block;width: 200px;text-align: center;">Mziouka PolyService</span></li></a>
             <a href="https://www.linkedin.com/in/mziouka-poly-service" target="_blank"><li><span style="width: 20px ; display: inline-block; margin-left: 6px;"><i style="color: rgb(14, 118, 168) ; font-size: 20px; position: relative;top: 2px;" class="fa-brands fa-linkedin"></i></span><span style="display: inline-block;width: 200px;text-align: center;">Mziouka PolyService</span></li></a>
-            <a href="https://wa.me/+212670214700" target="_blank"><li><span style="width: 20px ; display: inline-block; margin-left: 6px;"><i style="color:#25D366; font-size: 20px; position: relative;top: 2px;" class="fa-brands fa-whatsapp"></i></span><span style="display: inline-block;width: 200px;text-align: center;">+212 670-214 700</span></li></a>
-            <a href="mailto:mz.polyservice@gmail.com" target="_blank"><li><span style="width: 20px ; display: inline-block; margin-left: 6px;"><img style="width:17px; height: auto; position: relative;top: 2px;" src="gmail.png"></span><span style="display: inline-block;width: 195px;text-align: center;">mz.polyservice@gmail.com</span></li></a>
         </ul></div>
     </div>
 </body>
